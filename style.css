@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Quick";
+    src: url("./Fonts/Quicksand-Regular.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quick";
+}
+body{
+    background: rgba(0, 0, 0, 0.799);
+    color: #fff;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header{
+    width: 100%;
+    padding: 1rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero{
+    text-align: center;
+    padding-top: 5rem;
+}
+.hero__title{
+    font-size: 30px;
+}
+.hero__align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero__border{
+    width: 200px;
+    height: 3px;
+    background: #fff;
+}
+.hero__number{
+    font-size: 70px;
+}
+.number__form{
+    width: 100%;
+    padding-top: 5rem;
+}
+.number__input{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.input{
+    text-align: center;
+}
+input,  button{
+    padding: 0.5rem 1rem;
+    display: block;
+    margin: 1rem;
+    border: 1px solid transparent;
+    outline: 3px solid transparent;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.hero__number{
+    background: #fff;
+}
+input::placeholder{
+    font-size: 17px;
+}
+input:focus, button:hover{
+    outline: 3px solid rgba(0, 255, 255, 0.484);
+}
+.bodyBlock{
+    background: green;
+}
+.transparent{
+    background: transparent;
+}
+.boydsError{
+    background: rgba(220, 6, 6, 0.886);
+}
+.number__input_text h3 , h4{
+    padding: 0.3rem;
+    letter-spacing: 1px;
+}
